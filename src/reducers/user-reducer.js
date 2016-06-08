@@ -3,7 +3,7 @@ import {
   SET_PASSWORD,
   SET_LOGGEDIN,
   RESET_USER
-} from '../actions/user-actions';
+} from 'auth-hub-module/lib/actions/user-actions';
 
 export const initialState = {
   username: '',

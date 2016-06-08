@@ -1,6 +1,6 @@
 import {
   SET_ROUTE
-} from '../actions/route-actions';
+} from 'auth-hub-module/lib/actions/route-actions';
 
 export const initialState = {
   currentPage: '/'
