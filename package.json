@@ -1,0 +1,18 @@
+{
+  "name": "auth-hub-module",
+  "version": "0.0.1",
+  "description": "Just another Reapp application",
+  "scripts": {},
+  "author": "Albin Willman",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.x",
+    "react-bootstrap": "^0.28.x"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "keywords": [
+    "auth"
+  ]
+}
