@@ -9,15 +9,7 @@ import FormGroup from 'react-bootstrap/lib/FormGroup';
 import InputGroup from 'react-bootstrap/lib/InputGroup';
 import FormControl from 'react-bootstrap/lib/FormControl';
 
-export default class LoginPage extends React.Component {
-  static defaultProps = {
-    user: {},
-    onUsernameChange: $=>{},
-    onPasswordChange: $=>{},
-    submit: $=>{},
-    title: ''
-  };
-
+class LoginPage extends React.Component {
   render() {
     var { onUsernameChange, onPasswordChange, submit, title, user } = this.props;
     return (
@@ -50,3 +42,14 @@ export default class LoginPage extends React.Component {
     );
   };
 }
+
+LoginPage.defaultProps = {
+  user: {},
+  onUsernameChange: $=>{},
+  onPasswordChange: $=>{},
+  submit: $=>{},
+  title: ''
+};
+
+
+export default LoginPage;
