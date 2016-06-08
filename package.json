@@ -1,7 +1,7 @@
 {
   "name": "auth-hub-module",
   "version": "0.0.1",
-  "description": "Just another Reapp application",
+  "description": "The necessary stuff ",
   "scripts": {},
   "author": "Albin Willman",
   "license": "MIT",
@@ -14,5 +14,10 @@
   "dependencies": {},
   "keywords": [
     "auth"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "albin-willman/auth-hub-module"
+  },
+  "main": "lib/index.js"
 }
