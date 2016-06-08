@@ -1,4 +1,4 @@
-import { setRoute } from 'actions/route-actions';
+import { setRoute } from '../actions/route-actions';
 
 export function goToRoute(route) {
   return (dispatch, getState) => {

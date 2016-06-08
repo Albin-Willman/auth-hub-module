@@ -1,6 +1,6 @@
 import {
   SET_ROUTE
-} from 'actions/route-actions';
+} from '../actions/route-actions';
 
 export const initialState = {
   currentPage: '/'
